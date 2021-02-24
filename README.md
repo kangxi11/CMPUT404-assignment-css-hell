@@ -1,3 +1,12 @@
+Changes
+====================
+Part 1: changes to HTML
+* deleted style tag in all three books
+* deleted first few images in Huckleberry Finn
+* deleted photo links in Huckleberry Finn
+
+
+
 Assignment: CSS Hell
 ====================
 
