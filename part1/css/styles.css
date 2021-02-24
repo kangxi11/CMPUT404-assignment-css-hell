@@ -2,18 +2,25 @@ body {
     background-color: #dfc99a;
 }
 
+pre {
+    text-align: center;
+}
+
 p {
     margin: 2em 30%;
     font-family: 'Times New Roman', Times, serif;
+    text-indent: 3em;
+    line-height: 1.5em;
 }
 
-h1 {
+h1, h3 {
     text-align: center;
 }
 
 h2 {
+    font-size: 200%;
     text-align: center;
-    color: darkgray;
+    letter-spacing: 0.25em;
 }
 
 .toc {
@@ -30,4 +37,5 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+    box-shadow: 7px 7px 10px;
+}
