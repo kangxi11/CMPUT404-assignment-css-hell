@@ -1,0 +1,33 @@
+body {
+    background-color: #dfc99a;
+}
+
+p {
+    margin: 2em 30%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: darkgray;
+}
+
+.toc {
+    text-align: center;
+}
+
+ol {
+    text-align: center;
+    list-style-position: inside;
+}
+
+img {
+    width: 20vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
