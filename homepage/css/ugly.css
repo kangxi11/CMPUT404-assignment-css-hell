@@ -1,0 +1,115 @@
+body {
+    margin: 0 0;
+    background-image: url("../public/space.png");
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#banner {
+    display: flex;
+    height: 3em;
+    width: 100%;
+    color: white;
+    font-size: 5em;
+    align-content: center;
+    justify-content: center;
+}
+
+#name {
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 1em;
+}
+
+#profile-picture {
+    margin: 0.5em 0.5em;
+    transform: rotate(20deg);
+}
+
+#toolbar {
+    height: 3.5em;
+    width: 100%;
+    background-image: linear-gradient(to bottom, black, #696969);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.tab {
+    font-size: 1.5em;
+    margin: 10px 40px;
+    background-color: yellow;
+    color: red;
+    padding: 0em 1em;
+}
+
+#content {
+    display: flex;
+    height: 100px;
+}
+
+#left {
+    width: 65%;
+}
+
+#right {
+    width: 35%;
+    margin: 1em 1em;
+}
+
+.flex-container {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.info-picture {
+    width: 10vw;
+}
+
+.info-text {
+    margin: 0px 2em;
+    color: pink;
+}
+
+.info-header {
+    text-align: center;
+    color: skyblue;
+}
+
+.job {
+    width: 15%;
+    height: 100%;
+    margin: 0px 1em;
+    padding: 1em 1em;
+    background-color: #187bcd;
+    color: white;
+    border-radius: 15px;
+}
+
+.sidebar {
+    background-color: yellowgreen;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 6em;
+}
+
+.row {
+    display: flex;
+}
+
+.row p {
+    width: 7em;
+    margin: 0.5em 1em;
+}
+
+img {
+    background-color: white;
+}
