@@ -1,0 +1,97 @@
+body {
+    margin: 0 0;
+}
+
+#banner {
+    display: flex;
+    background-color: #187bcd;
+    height: 3em;
+    width: 100%;
+    color: white;
+    font-size: 5em;
+    align-content: center;
+    justify-content: center;
+}
+
+#name {
+    margin-top: 1em;
+}
+
+#profile-picture {
+    margin: 0.5em 0.5em;
+}
+
+#toolbar {
+    height: 3.5em;
+    width: 100%;
+    background-image: linear-gradient(to bottom, black, #696969);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.tab {
+    font-size: 2em;
+    margin: 10px 40px;
+}
+
+#content {
+    display: flex;
+    height: 100px;
+}
+
+#left {
+    width: 65%;
+}
+
+#right {
+    width: 35%;
+    margin: 1em 1em;
+}
+
+.flex-container {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.info-picture {
+    width: 10vw;
+}
+
+.info-text {
+    margin: 0px 2em;
+}
+
+.info-header {
+    text-align: center;
+}
+
+.job {
+    width: 15%;
+    height: 100%;
+    margin: 0px 1em;
+    padding: 1em 1em;
+    background-color: #187bcd;
+    color: white;
+    border-radius: 15px;
+}
+
+.sidebar {
+    background-color: lightgrey;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 6em;
+}
+
+.row {
+    display: flex;
+}
+
+.row p {
+    width: 7em;
+    margin: 0.5em 1em;
+}
