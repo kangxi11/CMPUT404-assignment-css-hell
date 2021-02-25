@@ -30,4 +30,7 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
-
+References
+====================
+How to give text rainbow effect | Commercial Suicide
+https://stackoverflow.com/questions/40557461/rainbow-gradient-on-text-in-css/40557564
